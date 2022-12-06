@@ -16,7 +16,7 @@ namespace Proyecto.Metodos
             try
 			{
 				//Comando de la informacion de la base de datos
-				string cadenaConexion = "server = localhost; port = 3306; user id = root; password = root; database = credu;";
+				string cadenaConexion = "server = bhc6gfahks5l73k7sjji-mysql.services.clever-cloud.com; port = 3306; user id = ucxp5xnej4vzjkyg; password = 4i8qScnb5BLhRzt9O6yS; database = bhc6gfahks5l73k7sjji;";
 				//Haciendo conexion
 				MySqlConnection conex = new MySqlConnection(cadenaConexion);
 				//Regresando variable de la conexion
